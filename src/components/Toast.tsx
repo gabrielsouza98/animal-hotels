@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect, createContext, useContext } from "react";
+import { useState, useCallback, useEffect, createContext, useContext } from "react";
 import type { ReactNode } from "react";
 
 type ToastState = {
