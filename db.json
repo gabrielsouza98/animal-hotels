@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@animalhotels.com",
+      "password": "123456",
+      "name": "Administrador"
+    }
+  ],
+  "tutors": [
+    {
+      "id": "d3c8",
+      "name": "Gabriel Souza",
+      "email": "Gabrielwar15@hotmail.com",
+      "phone": "8698425392"
+    }
+  ],
+  "animals": [
+    {
+      "id": "6ccd",
+      "name": "vina",
+      "species": "cachorro",
+      "breed": "cv",
+      "age": 3,
+      "tutorId": null,
+      "photoUrl": ""
+    }
+  ]
+}
