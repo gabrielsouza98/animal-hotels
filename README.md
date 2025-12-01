@@ -1,112 +1,134 @@
-# AnimalHotels 🐾
+Hotéis para Animais
 
-Sistema de gerenciamento de tutores e animais desenvolvido com React + TypeScript + Vite.
+Sistema para gestão de tutores e animais desenvolvido com React, TypeScript e Vite.
 
-## 🚀 Tecnologias
+Tecnologias utilizadas
 
-- **React 19** + **TypeScript**
-- **Vite** - Build tool
-- **React Router** - Roteamento
-- **React Hook Form** - Formulários
-- **Axios** - Requisições HTTP
-- **TailwindCSS** - Estilização
-- **Context API + useReducer** - Gerenciamento de estado
-- **json-server** - API mock
+React 19 com TypeScript
 
-## 📋 Funcionalidades
+Vite como ferramenta de construção
 
-- ✅ Sistema de autenticação com token
-- ✅ CRUD completo de Tutores
-- ✅ CRUD completo de Animais
-- ✅ Rotas públicas e privadas
-- ✅ Validações de formulários
-- ✅ Notificações (Toast)
-- ✅ Responsivo
+React Router para gerenciamento de rotas
 
-## 🛠️ Instalação
+React Hook Form para formulários
 
-```bash
-# Instalar dependências
+Axios para requisições HTTP
+
+TailwindCSS para estilização
+
+Context API com useReducer para gerenciamento de estado
+
+json-server para simulação de API durante o desenvolvimento
+
+Funcionalidades
+
+Autenticação baseada em token
+
+CRUD completo de tutores
+
+CRUD completo de animais
+
+Rotas públicas e privadas
+
+Validação de formulários
+
+Sistema de notificações (Toast)
+
+Layout responsivo
+
+
+Instalação
+Instalar dependências
 npm install
 
-# Iniciar servidor de desenvolvimento (frontend)
+Iniciar servidor de desenvolvimento (frontend)
 npm run dev
 
-# Iniciar API mock (em outro terminal)
+Iniciar API mock (em outro terminal)
 npm run server
-```
 
-## 🌐 Deploy
 
-### Opção 1: Vercel (Recomendado)
+Implantação
+Opção 1: Vercel (recomendado)
 
-1. Faça push do código para o GitHub
-2. Acesse [vercel.com](https://vercel.com)
-3. Conecte seu repositório
-4. Configure a variável de ambiente:
-   - `VITE_API_URL`: URL da sua API (ex: `https://sua-api.railway.app`)
-5. Deploy automático!
+Envie o código para o GitHub
 
-### Opção 2: Netlify
+Acesse o site da Vercel
 
-1. Faça push do código para o GitHub
-2. Acesse [netlify.com](https://netlify.com)
-3. Conecte seu repositório
-4. Configure:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-   - Variável de ambiente: `VITE_API_URL`
+Conecte o repositório
 
-### Backend (API)
+Configure a variável de ambiente:
 
-Para o backend, você pode usar:
+VITE_API_URL: URL da sua API (exemplo: https://sua-api.railway.app
+)
 
-- **Railway**: [railway.app](https://railway.app) - Gratuito
-- **Render**: [render.com](https://render.com) - Gratuito
-- **Cyclic**: [cyclic.sh](https://cyclic.sh) - Gratuito
+Publique o projeto com implantação automática
 
-Ou criar uma API real com Node.js/Express, Python/Flask, etc.
+Opção 2: Netlify
 
-## 📝 Variáveis de Ambiente
+Envie o código para o GitHub
 
-Crie um arquivo `.env` na raiz do projeto:
+Acesse o Netlify
 
-```env
+Conecte o repositório
+
+Configure:
+
+Comando de build: npm run build
+
+Diretório publicado: dist
+
+Variável de ambiente: VITE_API_URL
+
+Backend (API)
+
+Para o backend, você pode usar serviços gratuitos como:
+
+Railway
+
+Render
+
+Cyclic
+
+Ou desenvolver uma API real utilizando Node.js/Express, Python/Flask ou outra tecnologia semelhante.
+
+Variáveis de Ambiente
+
+Crie um arquivo .env na raiz do projeto:
+
 VITE_API_URL=http://localhost:3000
-```
 
-Para produção, use a URL da sua API hospedada.
 
-## 🔐 Credenciais de Login
+Para produção, utilize a URL da API hospedada.
 
-- **Email**: `admin@animalhotels.com`
-- **Senha**: `123456`
+Credenciais de Acesso
 
-## 📦 Scripts Disponíveis
+E-mail: admin@animalhotels.com
+Senha: 123456
 
-- `npm run dev` - Inicia servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run server` - Inicia json-server (API mock)
-- `npm run preview` - Preview do build de produção
-- `npm run lint` - Executa o linter
+Scripts Disponíveis
 
-## 📁 Estrutura do Projeto
+npm run dev: inicia o servidor de desenvolvimento
 
-```
+npm run build: gera o build de produção
+
+npm run server: sobe o json-server
+
+npm run preview: visualiza o build de produção
+
+npm run lint: executa o linter
+
+Estrutura do Projeto
 src/
-├── api/           # Configuração da API
+├── api/           # Configurações da API
 ├── components/    # Componentes reutilizáveis
-├── context/       # Context API (Auth)
+├── context/       # Context API (autenticação)
 ├── pages/         # Páginas da aplicação
-├── router/        # Configuração de rotas
+├── router/        # Configuração das rotas
 └── types/         # Tipos TypeScript
-```
 
-## 🎯 Requisitos
+Requisitos
 
-- Node.js 20.19+ ou 22.12+
-- npm ou yarn
+Node.js 20.19 ou superior, ou 22.12+
 
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
+npm ou yarn instalado
